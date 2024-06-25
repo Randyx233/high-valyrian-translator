@@ -23,6 +23,7 @@ body{
     color: var(--primary);
     font-family: 'Lora';
     font-size:large ;
+    background-color: black;
 }
 
 h1 {
@@ -114,7 +115,7 @@ button:hover {
 }
 
 footer {
-    position:fixed;
+    /* position:fixed; */
     bottom: 0;
     width: 100%;
     padding: 1rem;
@@ -125,4 +126,8 @@ footer {
 footer p {
     max-width: var(--width-break);
     margin: auto;
+}
+
+small {
+    margin-top: 1rem;
 }
