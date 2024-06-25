@@ -123,9 +123,10 @@ footer {
     text-shadow: var(--red-shadow);
 }
 
-footer p {
+footer h3 {
     max-width: var(--width-break);
     margin: auto;
+    font-size: 1em;
 }
 
 small {
