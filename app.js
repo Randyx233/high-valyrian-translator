@@ -26,4 +26,16 @@ function btnClick() {
         .catch(errorHandler)
 }
 
+//点击按钮把输出文本翻译回输入文本
+function reverseTranslate() {
+    var inputText = output.value;
+    fetch(getTranslationURL(inputText))
+     .then(response => response.json())
+     .then(json => {
+            var translatedText = json.contents.translated
+            txtInput.innerText = translatedText
+        })
+     .catch(errorHandler)
+}
+
 btnTranslate.addEventListener("click", btnClick);
