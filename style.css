@@ -17,12 +17,12 @@
     font-size: medium;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     color: var(--primary);
     font-family: 'Lora';
-    font-size:large ;
+    font-size: large;
     background-color: black;
 }
 
@@ -30,14 +30,14 @@ h1 {
     padding: 0;
     margin: 0;
     font-size: larger;
-    text-shadow:2px 2px 10px rgb(255, 0, 0), 2px 2px 10px rgb(0, 0, 0);
+    text-shadow: 2px 2px 10px rgb(255, 0, 0), 2px 2px 10px rgb(0, 0, 0);
 }
 
 h2 {
     padding: 0;
     margin: 0;
     font-size: larger;
-    text-shadow:2px 2px 10px rgb(255, 0, 0), 2px 2px 10px rgb(0, 0, 0);
+    text-shadow: 2px 2px 10px rgb(255, 0, 0), 2px 2px 10px rgb(0, 0, 0);
 }
 
 .background-image {
@@ -70,7 +70,7 @@ main {
 }
 
 textarea {
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     color: var(--primary);
     box-sizing: border-box;
     display: block;
@@ -79,7 +79,7 @@ textarea {
     padding: 1rem;
     font-family: 'Lora';
     font-size: large;
-    border-radius: 2rem ;
+    border-radius: 2rem;
 }
 
 button {
@@ -100,7 +100,7 @@ button:hover {
 }
 
 #output {
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     box-sizing: border-box;
     color: var(--primary);
     text-align: left;
@@ -109,8 +109,8 @@ button:hover {
     max-height: 20vh;
     padding: 2rem;
     border: 1px solid var(--black);
-    border-radius: 2rem ;
-    font-size:large;
+    border-radius: 2rem;
+    font-size: large;
     text-shadow: var(--red-shadow);
 }
 
@@ -123,7 +123,7 @@ footer {
     text-shadow: var(--red-shadow);
 }
 
-footer h3 {
+footer p {
     max-width: var(--width-break);
     margin: auto;
     font-size: 1em;
