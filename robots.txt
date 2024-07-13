@@ -1,2 +1,4 @@
-User-agent: *
-Disallow: /*?ref=indielogs
+user-agent: *
+allow：/
+
+sitemap: https://valyriantranslator.com/sitemap.xml
