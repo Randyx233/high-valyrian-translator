@@ -1,4 +1,4 @@
-user-agent: *
-allow：/
+User-agent: *
+Allow: /
 
-sitemap: https://valyriantranslator.com/sitemap.xml
+Sitemap: https://valyriantranslator.com/sitemap.xml

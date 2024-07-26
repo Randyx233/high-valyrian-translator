@@ -132,3 +132,8 @@ footer p {
 small {
     margin-top: 1rem;
 }
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
